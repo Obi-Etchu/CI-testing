@@ -3,10 +3,10 @@ name: Python Flask CI
 on:
   push:
     branches:
-      - main  # or whichever branch you want to run CI on
+      - master  # or whichever branch you want to run CI on
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   test:
@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'  # specify your Python version
+        python-version: '3.12'  # specify your Python version
 
     - name: Install dependencies
       run: |
