@@ -4,9 +4,9 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 
-@app.route('/project_route ')
+@app.route('/')
 def home():
-    return jsonify(message="Hello my name is Tidding Ramsey B")
+    return jsonif(message="Hello my name is Tidding Ramsey B")
     
 
 
