@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 
-@app.route(' ')
+@app.route('/project_route ')
 def home():
     return jsonify(message="Hello my name is Tidding Ramsey B")
     
