@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return jsonif(message="Hello my name is Tidding Ramsey B")
+    return jsonify(message="Hello my name is Obi Jnr")
     
 
 
