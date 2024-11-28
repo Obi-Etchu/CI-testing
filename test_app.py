@@ -14,7 +14,7 @@ class FlaskAppTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         
         # Check if the JSON response matches the expected output
-        self.assertEqual(response.get_json(), {"message": "Hello my name is Obi jnr"})
+        self.assertEqual(response.get_json(), {"message": "Hello my name is obi jnr"})
 
 # Run the tests
 if __name__ == '__main__':
